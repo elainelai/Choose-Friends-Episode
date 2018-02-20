@@ -40,22 +40,8 @@ function clicked2() {
 }
 
 
-// nflx://www.netflix.com/title/70291117 - Will open a show page
-// nflx://www.netflix.com/watch/70291117 - Will begin playing the video
-// nflx://title/{showID}
-// for house of cards it's: nflx://title/70178217
-
-
-//alert("yoooo")
-
-//document.getElementById("rando").innerHTML = 12;
-//function returnShowChoice(listOfShows){
-
-// input a list of shows, output a random item of the list
-// take a list of things, output one random item of the list of things
-
-//}
-
 
 // HELP was found here
 // https://code-maven.com/handling-events-in-javascript
+// http://blog.teamtreehouse.com/deploy-static-site-heroku
+// https://www.thoughtco.com/open-link-new-window-javascript-3468859
