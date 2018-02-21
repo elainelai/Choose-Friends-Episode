@@ -10,11 +10,14 @@ var myShowList = ["The One Where Monica Gets a Roommate",
 "The One With George Stephanopoulos",
 "The One With the East German Laundry"]
 
-var myLinkList = ["https://www.netflix.com/watch/70273997",
-"https://www.netflix.com/watch/70273998",
-"https://www.netflix.com/watch/70273999",
-"https://www.netflix.com/watch/70274000",
-"https://www.netflix.com/watch/70274001"]
+//var myLinkList = ["https://www.netflix.com/watch/70273997",
+//"https://www.netflix.com/watch/70273998",
+//"https://www.netflix.com/watch/70273999",
+//"https://www.netflix.com/watch/70274000",
+//"https://www.netflix.com/watch/70274001"]
+
+var myLinkList = provideShowData();
+
 
 function pickARando(list){
   var len = list.length
@@ -23,20 +26,18 @@ function pickARando(list){
   index = Math.floor(z)
   return(list[index])
 }
-var result = pickARando(myShowList)
+var result = pickARando(myLinkList);
 
 
 // define all my connections from javascript to html here!
 document.getElementById('btn').addEventListener('click', clicked);
 
+//function clicked() {
+//    document.getElementById("rando").innerHTML = result;
+//}
+
 function clicked() {
-    document.getElementById("rando").innerHTML = result;
-}
-
-document.getElementById('btn2').addEventListener('click', clicked2);
-
-function clicked2() {
-  window.open("https://www.netflix.com/watch/70273999", "_blank", "toolbar=yes,top=500,left=500,width=400,height=400");
+  window.open(result, "_blank", "toolbar=yes,top=500,left=500,width=400,height=400");
 }
 
 
