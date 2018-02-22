@@ -37,7 +37,7 @@ document.getElementById('btn').addEventListener('click', clicked);
 //}
 
 function clicked() {
-  window.open(result, "_blank", "toolbar=yes,top=500,left=500,width=400,height=400");
+  window.open(result, "_blank");
 }
 
 

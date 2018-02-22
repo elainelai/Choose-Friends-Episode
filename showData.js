@@ -1,4 +1,7 @@
-// 236 - 4 - 10 - 90 = 236 - 104 = 132
+
+// This function makes the show data EVERY time the button is pressed
+// I needs to be done only once in the future. How?
+
 
 function provideShowData(){
   var myLinkList = ["https://www.netflix.com/watch/70273997",
