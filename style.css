@@ -13,7 +13,7 @@ button {
   font-weight: bold;
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 150px;
+  height: 135px;
   width: 300px;
 }
 
@@ -21,4 +21,9 @@ button {
   text-align: center;
   color 000000;
   font-size:10;
+}
+
+.uk-section {
+  padding-top: 25px;
+  padding-bottom: 9px;
 }
