@@ -4,7 +4,16 @@ html {
 
 }
 
+button {
+    background: url(img/coffeecupbutton.png) bottom;
+    background-repeat:no-repeat;
+    border: 1px;
+    color 000000;
 
-h1 {
-  color: "000000";
+    font-family: Helvetica, Arial, sans-serf;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 21px 5px;
+    height: 75px;
+    width: 95px;
 }
