@@ -11,8 +11,8 @@ button {
   font-family: Helvetica, Arial, sans-serf;
   font-size: 14px;
   font-weight: bold;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 45px;
   height: 135px;
   width: 300px;
 }
@@ -26,4 +26,5 @@ button {
 .uk-section {
   padding-top: 25px;
   padding-bottom: 9px;
+  margin-bottom: 10px;
 }
