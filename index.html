@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-      <meta charset="UTF-8">
-      <title>F.R.I.E.N.D.S.</title>
 
-      <!-- UI Kit stuff -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="uikit.min.css" />
-      <link rel="stylesheet" href="style.css" />
-      <link rel="shortcut icon" type="image/png" href="img/coffeecupfavicon.png"/>
-      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon180.png"/>
-      <!-- <script src="uikit.min.js"></script> -->
+<head>
+  <meta charset="UTF-8">
+  <title>F.R.I.E.N.D.S.</title>
 
-    </head>
-    <body>
-      <div class="uk-block-primary uk-margin-large-left uk-margin-large-top uk-margin-large-right">
+  <!-- UI Kit stuff -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="uikit.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/coffeecupfavicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon180.png" />
+  <!-- <script src="uikit.min.js"></script> -->
 
-          <h1>F.R.I.E.N.D.S.</h1>
-          <p class=".uk-align-left .uk-text-justify"> Remember the old days when you just watched whatever was on TV?
-            Friends is on? SCORE. Who cares what episode - I'm watching it.
-            Eliminate one decision from your day and let me decide which
-            episode you'll watch - no do-overs!</p>
+</head>
 
-        <button id="btn"></button>
-       <!-- here is the output from js <p id="rando"> </p> -->
+<body>
+  <div div class="uk-section uk-section-secondary uk-margin-large-left uk-margin-large-top uk-margin-large-right">
+    <div class="uk-margin-large-left uk-margin-large-right">
 
-       <script src="showData.js"></script>
-       <script src="friends-master.js"></script>
+      <h1>F.R.I.E.N.D.S.</h1>
+      <p class=".uk-align-left .uk-text-justify"> Remember the old days when you just watched whatever was on TV? Friends is on? SCORE. Who cares what episode - I'm watching it. Eliminate one decision from your day and let me decide which episode you'll watch - no do-overs!<br>
+        Click the mug and Netflix will open with your episode! </p>
+
+
 
     </div>
-    </body>
+  </div>
+
+  <button id="btn" class="uk-align-center"></button>
+  <!-- here is the output from js <p id="rando"> </p> -->
+
+  <script src="showData.js"></script>
+  <script src="friends-master.js"></script>
+  <p> Make sure you're logged into Netflix and no other shows are playing! </p>
+</body>
+
 </html>
 
 <!-- jquery fn says 'wait for everything to load before running it' document.ready -->

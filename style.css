@@ -1,19 +1,18 @@
 html {
-    background-image: url("img/background.png");
-    background-size:cover;
-
+  background-image: url("img/background.png");
+  background-size: cover;
 }
 
 button {
-    background: url(img/coffeecupbutton.png) bottom;
-    background-repeat:no-repeat;
-    border: 1px;
-    color 000000;
-
-    font-family: Helvetica, Arial, sans-serf;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 8px 21px 5px;
-    height: 75px;
-    width: 95px;
+  background: url(img/coffeecupbuttonlarge.png) bottom;
+  background-repeat: no-repeat;
+  border: 1px;
+  color 000000;
+  font-family: Helvetica, Arial, sans-serf;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 150px;
+  width: 300px;
 }

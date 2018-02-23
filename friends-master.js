@@ -5,10 +5,11 @@
 // App returns a friends episode to watch
 
 var myShowList = ["The One Where Monica Gets a Roommate",
-"The One With the Sonogram at the End",
-"The One With the Thumb",
-"The One With George Stephanopoulos",
-"The One With the East German Laundry"]
+  "The One With the Sonogram at the End",
+  "The One With the Thumb",
+  "The One With George Stephanopoulos",
+  "The One With the East German Laundry"
+]
 
 //var myLinkList = ["https://www.netflix.com/watch/70273997",
 //"https://www.netflix.com/watch/70273998",
@@ -19,12 +20,12 @@ var myShowList = ["The One Where Monica Gets a Roommate",
 var myLinkList = provideShowData();
 
 
-function pickARando(list){
+function pickARando(list) {
   var len = list.length
   var z = Math.random()
-  z = z*len
+  z = z * len
   index = Math.floor(z)
-  return(list[index])
+  return (list[index])
 }
 var result = pickARando(myLinkList);
 
