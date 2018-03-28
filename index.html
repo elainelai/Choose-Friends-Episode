@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en"> <!-- added lang due to accessibility requirements.
+  //It assists search engines and browsers so they know the language of the page
 
 <head>
 
@@ -30,7 +31,8 @@
 </head>
 
 <body>
-  <div div class="uk-section uk-section-secondary uk-margin-large-left uk-margin-large-top uk-margin-large-right">
+  <main>
+  <div class="uk-section uk-section-secondary uk-margin-large-left uk-margin-large-top uk-margin-large-right">
     <div class="uk-margin-large-left uk-margin-large-right">
 
       <h2 align="center">F&middot;R&middot;I&middot;E&middot;N&middot;D&middot;S</h2>
@@ -39,12 +41,13 @@
     </div>
   </div>
 
-  <button id="btn" class="uk-align-center"></button>
+  <button id="btn" class="uk-align-center" aria-label="Click to start"></button> <!--aria-label for accessibility -->
   <!-- here is the output from js <p id="rando"> </p> -->
 
   <script src="showData.js"></script>
   <script src="friends-master.js"></script>
   <p class="example"> Make sure you're logged into Netflix and no other shows are playing! </p>
+</main>
 </body>
 
 </html>
